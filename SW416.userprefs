@@ -1,24 +1,26 @@
-﻿<Properties StartupConfiguration="{2A289375-87E0-4844-8C33-8925BD0AD0A0}|Default">
+﻿<Properties StartupConfiguration="{8F106BC6-C239-40C2-9163-4AFCE22DE848}|Default" GitUserInfo="UsingMD">
   <MonoDevelop.Ide.Workbench ActiveDocument="Projects Status">
     <Files>
-      <File FileName="iOS/ViewControllers/AboutViewController.cs" Line="13" Column="9" />
-      <File FileName="iOS/Info.plist" />
-      <File FileName="iOS/ViewControllers/TabBarController.cs" Line="1" Column="1" />
-      <File FileName="iOS/ViewControllers/ItemNewViewController.cs" Line="1" Column="1" />
-      <File FileName="iOS/ViewControllers/BrowseViewController.cs" Line="23" Column="43" />
+      <File FileName="iOS/AppDelegate.cs" Line="2" Column="13" />
+      <File FileName="TestOrientation/Tests.cs" Line="31" Column="46" />
+      <File FileName="TestOrientation/AppInitializer.cs" Line="35" Column="1" />
       <File FileName="Projects Status" />
+      <File FileName="iOS/SW416.iOS.csproj" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/kootsookosp/Projects/Droid/Activities/AddItemActivity.cs" relfile="Droid/Activities/AddItemActivity.cs" line="35" column="1" />
+      <Breakpoint file="/Users/kootsookosp/Projects/SW416/Services/MockDataStore.cs" relfile="SW416/Services/MockDataStore.cs" line="33" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="SW416/Helpers/Command.cs" line="8" offsetX="593" offsetY="30" expression="T" liveUpdate="False" />
+    <Watch file="SW416/ViewModels/ItemsViewModel.cs" line="51" offsetX="401" offsetY="750" expression="item" liveUpdate="False" />
+    <Watch file="Droid/Activities/AddItemActivity.cs" line="40" offsetX="491" offsetY="514" expression="item" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SW416.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" AndroidDesignerPreferredTheme="MasterDetailTheme" />
-  <MonoDevelop.Ide.ItemProperties.SW416.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9E50F9BB-C7E0-42D3-9F2C-3AA05BB449EF" automaticSigning="False">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="9ULZ6E89V6" TeamId="PL2DAFATY4" />
-  </MonoDevelop.Ide.ItemProperties.SW416.iOS>
+  <MonoDevelop.Ide.ItemProperties.SW416.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.SW416.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9E50F9BB-C7E0-42D3-9F2C-3AA05BB449EF" automaticSigning="False" />
 </Properties>
