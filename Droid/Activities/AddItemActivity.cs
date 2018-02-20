@@ -37,7 +37,10 @@ namespace SW416.Droid
                 Text = title.Text,
                 Description = description.Text
             };
+
             ViewModel.AddItemCommand.Execute(item);
+
+            Console.WriteLine("Added text {0} and Description {1}", title.Text, description.Text);
 
             Finish();
         }
